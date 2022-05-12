@@ -4,7 +4,7 @@
   "description": "[Pendiente]",
   "main": "index.js",
   "scripts": {
-   
+    "start": "node api/index.js"
   },
   "keywords": [
     "[pendiente]"
