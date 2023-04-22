@@ -11,7 +11,7 @@ const users = require('./routes/users')
 app.use(bodyParser.json())
 app.use(cors())
 
-mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+//mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
 
 app.set('port', process.env.PORT || 3000)
 

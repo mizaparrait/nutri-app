@@ -7,6 +7,7 @@ const loadRegisterPage = () => {
           <input type="text" placeholder="Usuario" />
           <input type="password" placeholder="Contraseña" />
           <button>Iniciar Sesión</button>
+          <button>Crear Cuenta</button>
         </form>
       </div>
     </div>
